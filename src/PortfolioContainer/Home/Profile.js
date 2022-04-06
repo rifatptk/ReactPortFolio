@@ -1,4 +1,5 @@
 import React from "react";
+import Typed from "react-typed";
 
 export default function Profile() {
   return (
@@ -29,7 +30,24 @@ export default function Profile() {
             </span>
           </div>
           <div className="profile-details-role">
-            
+            <span className="primary-text">
+              {" "}
+              <h1>
+                {" "}
+                <Typed
+                  strings={[
+                    "Enthusiastic Dev 👨‍💻",
+                    "Full Stack Developer 🚗",
+                    "MERN Stack dev 📺",
+                    "Cross Platform Dev",
+                    "React/ React-Native Dev",
+                  ]}
+                  typeSpeed={40}
+                  backSpeed={50}
+                  loop
+                />
+              </h1>
+            </span>
           </div>
         </div>
       </div>
