@@ -1,0 +1,23 @@
+.aboutme-container{
+    padding: 4rem;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    background-color: #24263B;
+    color: white;
+    text-align: center;
+    line-height: 2;
+    border-top: 10px solid var(--dark-orange);
+    
+}
+.aboutme-container h1{
+    color: var(--dark-orange);
+    font-weight: bold;
+}
+.aboutme-container h1 .aboutme-white{
+    color: white;
+}
+.aboutme-container h5{
+    margin-bottom: 4rem;
+}
