@@ -1,0 +1,26 @@
+.navbar{
+    padding: 1rem 4rem;
+    display: flex;
+    background-color: #1f2235;
+
+}
+.navbar .navbar-logo{
+    font-size: 2rem;
+    color:#ff5823 ;
+    font-weight: bold;
+}
+.navbar .navbar-logo .navbar-logo-white{
+    color: white;
+}
+.navlink-container{
+    display: flex;
+    gap: 2rem;
+}
+.navlink{
+    color: white;
+    transition: 200ms ease;
+}
+.navlink:hover{
+    text-decoration: none;
+    color: #ff5823;
+}

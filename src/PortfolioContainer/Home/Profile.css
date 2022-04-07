@@ -1,0 +1,85 @@
+.profile-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: end;
+  height: 60vh;
+  min-height: fit-content;
+  background-image: url("../../assets/Home/bg.jpg");
+}
+
+.profile-parent {
+  display: flex;
+  align-items: center;
+  color: aliceblue;
+  justify-content: space-around;
+}
+
+.profile-details-name {
+  font-size: 24px;
+  font-family: "Poppins SemiBold";
+}
+
+.profile-details-role {
+  display: flex;
+  flex-direction: column;
+  margin: 14px 0 24px 0;
+}
+
+.profile-details-role h1 {
+  font-size: 40px;
+  font-family: cursive;
+}
+
+.primary-text {
+  color: var(--white);
+}
+
+.highlighted-text {
+  color: var(--dark-orange);
+}
+.profile-role-tagline {
+  font-size: 19px;
+  margin: 5px 0 0 0;
+  font-family: "Poppins Light";
+}
+
+.profile-options .highlighted-btn {
+  margin: 0 0 0 28px;
+}
+
+.profile-options .highlighted-btn:hover {
+  margin: 0 0 0 28px;
+  background-color: orange;
+  color: aliceblue;
+}
+
+.profile-picture {
+  width: 30%;
+}
+
+.profile-picture img {
+  width: 50%;
+  clip-path: circle();
+  transition: transform 100ms ease-in;
+}
+
+.profile-picture img:hover {
+  transform: rotate(10deg) scale(1.1);
+}
+
+.shape {
+  width: 100vw;
+}
+.colz-icon {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.colz-icon i {
+  color: white;
+  font-size: 2rem;
+  display: flex;
+}
