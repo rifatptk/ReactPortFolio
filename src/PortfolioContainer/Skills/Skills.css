@@ -1,0 +1,28 @@
+.skills-container {
+  margin: 2rem 4rem;
+  display: flex;
+  gap: 2rem;
+  justify-content: space-between;
+  text-align: center;
+}
+.skill {
+  flex: 1;
+  /* border: 1px solid #1f2235; */
+  border-radius: 25px;
+  padding: 2rem;
+  box-shadow: inset 0 0 15px #1f2235;
+  color: #1f2235;
+}
+
+.skills-container .skill i {
+  color: var(--dark);
+  font-size: 3rem;
+}
+.skill-header {
+  color: var(--dark-orange);
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+.skill p {
+  font-size: 0.9rem;
+}

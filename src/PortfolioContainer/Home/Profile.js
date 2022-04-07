@@ -12,16 +12,16 @@ export default function Profile() {
           <div className="colz">
             <div className="colz-icon">
               <a target="_blank" href="https://www.facebook.com/rifatptk">
-                <i className="fa fa-facebook-square"></i>
+              <i className="fa-brands fa-facebook-square"></i>
               </a>
               <a target="_blank" href="https://www.instagram.com/rifatptk/">
-              <i className="fa fa-instagram"></i>
+              <i className="fa-brands fa-instagram-square"></i>
               </a>
               <a target="_blank" href="https://github.com/rifatptk">
-                <i className="fa fa-github-square"></i>
+                <i className="fa-brands fa-github-square"></i>
               </a>
               <a target="_blank" href="https://www.linkedin.com/in/rifatptk/">
-                <i className="fa fa-linkedin-square"></i>
+                <i className="fa-brands fa-linkedin"></i>
               </a>
             </div>
           </div>
