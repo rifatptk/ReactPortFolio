@@ -18,6 +18,7 @@
 }
 .navlink{
     color: white;
+    font-weight: 600;
     transition: 200ms ease;
 }
 .navlink:hover{
