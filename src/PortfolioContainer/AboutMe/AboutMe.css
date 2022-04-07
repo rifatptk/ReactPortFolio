@@ -9,11 +9,13 @@
     text-align: center;
     line-height: 2;
     border-top: 10px solid var(--dark-orange);
+    /* border-radius: 0% 0% 100% 0% / 0% 0% 20% 0% ; */
     
 }
 .aboutme-container h1{
     color: var(--dark-orange);
     font-weight: bold;
+    text-shadow: 0 0 5px #000;
 }
 .aboutme-container h1 .aboutme-white{
     color: white;
