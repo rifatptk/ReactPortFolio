@@ -83,3 +83,15 @@
   font-size: 2rem;
   display: flex;
 }
+@media screen and (max-width: 900px) {
+  .profile-container {
+    height: 90vh;
+  }
+
+  .profile-parent {
+    flex-direction: column-reverse;
+  }
+  .profile-picture img {
+    width: 60%;
+  }
+}

@@ -26,3 +26,9 @@
 .skill p {
   font-size: 0.9rem;
 }
+
+@media screen and (max-width: 900px){
+    .skills-container{
+        flex-direction: column;
+    }
+}

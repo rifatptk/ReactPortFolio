@@ -38,9 +38,9 @@ export default function Profile() {
                 {" "}
                 <Typed
                   strings={[
-                    "Enthusiastic Developer 👨‍💻",
-                    "Full Stack Developer 🚗",
-                    "MERN Stack Developer 📺",
+                    "Enthusiastic Developer",
+                    "Full Stack Developer",
+                    "MERN Stack Developer",
                     "Cross Platform Developer",
                     "React/ React-Native Developer",
                   ]}
